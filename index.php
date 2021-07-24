@@ -2,7 +2,7 @@
 
 require_once('./Jogo.php');
 
-$jogo = new jogo(10, 2);
+$jogo = new Jogo(8, 3);
 $jogo->gerarJogos();
 $jogo->sortearJogo();
 
